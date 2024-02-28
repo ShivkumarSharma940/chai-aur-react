@@ -12,7 +12,7 @@ function AddTodo() {
         dispatch(addTodo(input))
         setInput('')
     }
-
+// after setup a addTodoHandler Function
   return (
     <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
       <input
